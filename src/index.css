@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.active {
+    color: #1C8A7C;
+}
+
+.icon {
+    font-size: 2rem;
+}
+
+.gradient {
+    -webkit-box-shadow: 0px 0px 139px 64px rgba(144, 46, 255, 0.41);
+    -moz-box-shadow: 0px 0px 139px 64px rgba(144, 46, 255, 0.41);
+    box-shadow: 0px 0px 139px 64px rgba(144, 46, 255, 0.41);
+}
+
+.homeBanner,
+.shopBanner,
+.blogBanner,
+.aboutBanner {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.homeBanner {
+    background: url(assests/banner1.jpg);
+}
+
+.shopBanner {
+    background: url(assests/banner2.jpg);
+}
+
+.blogBanner {
+    background: url(assests/banner3.jpg);
+}
+
+.aboutBanner,
+.contactBanner {
+    background: url(assests/banner4.png);
+    background-position: top 16% right 75%;
+}
+
+#NewsLatter {
+    background: url(assests/latter.png);
+    background-position: 20% 30%;
+    background-color: #041e42;
+    background-repeat: no-repeat;
+}
